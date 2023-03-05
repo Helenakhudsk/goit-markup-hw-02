@@ -1,0 +1,167 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #2E2F42; 
+}
+/*header*/
+.link{
+    text-decoration: none;
+}
+
+.logo-web{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1,33;
+    letter-spacing: 0.03em;
+    color: #4D5AE5;
+}
+.logo-studio{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1,33;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.header-item{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,5;
+    letter-spacing: 0,02em;
+    color: #2E2F42;   
+}
+.contacts .contact-tel:hover,
+.contacts .contact-tel:focus{
+    color: #4D5AE5;
+}
+.contact-eml{
+    font-size: 16px;
+    line-height: 1,5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    }
+.contact-tel{
+    font-size: 16px;
+    line-height: 1,5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    }
+    /* Main banner */
+    banner{
+        width: 1440px;
+        height: 600px;
+        background: #2E2F42;
+    }
+    .banner-title{
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1,07;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+    }
+    .banner-btn{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1,5;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
+        background: #4D5AE5;
+    }
+    /* About company */
+    .guality-company{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1,2;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+        
+    }
+    .guality-comp-descr{
+        font-size: 16px;
+        line-height: 1,5;
+        letter-spacing: 0.02em;
+        color: #434455;
+    }
+    /* What are we doing */
+      .doing-title{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1,11;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: #2E2F42;
+    }
+    /* Our team */
+    .our-team{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1,11;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+    }
+    .name{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1,2;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+    }
+    .direction{
+        font-size: 16px;
+        line-height: 1,5;
+        letter-spacing: 0.02em;
+        color: #434455;
+    }
+    /* portfolio */
+    .portf-butn-list{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1,5;
+        letter-spacing: 0.04em;
+        color: #4D5AE5;  
+        background: #F4F4FD;
+    }
+
+    .port-typ-list{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1,2;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+    }
+    .portf-list{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1,5;
+        letter-spacing: 0.02em;
+        color: #434455;        
+    }
+    /*footer*/
+    .footer{
+        background: #2E2F42;
+    }
+    .web-footer{
+        font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 1,16;
+letter-spacing: 0.03em;
+color: #4D5AE5;
+    }
+    .studio-footer{
+        font-family: 'Raleway', sans-serif;
+        font-weight: 800;
+font-size: 18px;
+line-height: 1,16;
+letter-spacing: 0.03em;
+color: #F4F4FD;
+    }
+    .page-footer{
+        font-weight: 400;
+font-size: 16px;
+line-height: 1,5;
+letter-spacing: 0.02em;
+color: #E7E9FC;
+    }
