@@ -41,22 +41,17 @@ body{
 .contacts-address{
     font-style: normal;
 }
-.contacts .contact-tel:hover,
-.contacts .contact-tel:focus{
+.contacts .contact-li:hover,
+.contacts .contact-li:focus{
     color: #404bbf;
 }
-.contact-eml{
+.contact-li{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
     }
-.contact-tel{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-    }
+   
     /* Main banner */
     .banner{
         width: 1440px;
