@@ -141,6 +141,9 @@ body{
         background: #F4F4FD;
         cursor: pointer;
     }
+    .link{
+        text-decoration: none;
+    }
     .title-img{
         font-weight: 500;
         font-size: 20px;
