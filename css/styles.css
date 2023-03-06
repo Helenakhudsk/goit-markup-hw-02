@@ -1,34 +1,52 @@
 body {
     font-family: 'Roboto', sans-serif;
-    color: #2E2F42; 
+    color:  #434455; 
 }
 /*header*/
 .link{
     text-decoration: none;
 }
-
-.logo-web{
-    font-family: 'Raleway', sans-serif;
+.list{
+    list-style: none;
+}
+.logo{
     font-weight: 800;
     font-size: 18px;
-    line-height: 1,33;
+    line-height: 1.17;
     letter-spacing: 0.03em;
+    text-transform: uppercase;
     color: #4D5AE5;
 }
 .logo-studio{
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1,33;
+    line-height: 1.33;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
-.header-item{
+.header-item-active {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,5;
+    line-height: 1.5;
     letter-spacing: 0,02em;
-    color: #2E2F42;   
+    color: #2E2F42;
+    text-decoration: none;
+}
+.header-lisk .header-item-active:hover,
+.header-lisk .header-item-active:focus{
+    color: #404bbf;
+}
+.contacts-address{
+    font-style: normal;
+}
+.header-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0,02em;
+    color: #2E2F42;
+    text-decoration: none;   
 }
 .contacts .contact-tel:hover,
 .contacts .contact-tel:focus{
@@ -36,13 +54,13 @@ body {
 }
 .contact-eml{
     font-size: 16px;
-    line-height: 1,5;
+    line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: #404bbf;
     }
 .contact-tel{
     font-size: 16px;
-    line-height: 1,5;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
     }
@@ -50,44 +68,48 @@ body {
     banner{
         width: 1440px;
         height: 600px;
-        background: #2E2F42;
+        background-color: #2E2F42;
     }
     .banner-title{
         font-weight: 700;
         font-size: 56px;
-        line-height: 1,07;
+        line-height: 1.07;
         letter-spacing: 0.02em;
+        text-align: center;
         color: #FFFFFF;
     }
     .banner-btn{
+        font-family: 'Roboto', sans-serif;
         font-weight: 500;
         font-size: 16px;
-        line-height: 1,5;
+        line-height: 1.5;
         letter-spacing: 0.04em;
         color: #FFFFFF;
         background: #4D5AE5;
+        cursor: pointer;
     }
     /* About company */
     .guality-company{
         font-weight: 500;
         font-size: 20px;
-        line-height: 1,2;
+        line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2E2F42;
         
     }
     .guality-comp-descr{
         font-size: 16px;
-        line-height: 1,5;
+        line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
     }
     /* What are we doing */
       .doing-title{
         font-style: normal;
+        text-align: center;
         font-weight: 700;
         font-size: 36px;
-        line-height: 1,11;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize;
         color: #2E2F42;
@@ -96,44 +118,48 @@ body {
     .our-team{
         font-weight: 700;
         font-size: 36px;
-        line-height: 1,11;
+        line-height: 1.11;
         letter-spacing: 0.02em;
+        text-align: center;
+        text-transform: capitalize;
         color: #2E2F42;
     }
     .name{
         font-weight: 500;
         font-size: 20px;
-        line-height: 1,2;
+        line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2E2F42;
     }
     .direction{
         font-size: 16px;
-        line-height: 1,5;
+        line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
     }
     /* portfolio */
     .portf-butn-list{
+        font-family: 'Roboto', sans-serif;
         font-weight: 500;
         font-size: 16px;
-        line-height: 1,5;
+        line-height: 1.5;
         letter-spacing: 0.04em;
-        color: #4D5AE5;  
+        color: #4D5AE5; 
         background: #F4F4FD;
+        cursor: pointer;
     }
 
     .port-typ-list{
         font-weight: 500;
         font-size: 20px;
-        line-height: 1,2;
+        line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2E2F42;
     }
     .portf-list{
         font-weight: 400;
         font-size: 16px;
-        line-height: 1,5;
+        line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;        
     }
@@ -141,27 +167,31 @@ body {
     .footer{
         background: #2E2F42;
     }
-    .web-footer{
+    .link{
+        text-decoration: none;
+    }
+    .logo-footer{
         font-family: 'Raleway', sans-serif;
-font-style: normal;
-font-weight: 800;
-font-size: 18px;
-line-height: 1,16;
-letter-spacing: 0.03em;
-color: #4D5AE5;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4D5AE5;
     }
     .studio-footer{
         font-family: 'Raleway', sans-serif;
         font-weight: 800;
-font-size: 18px;
-line-height: 1,16;
-letter-spacing: 0.03em;
-color: #F4F4FD;
+        font-size: 18px;
+        line-height: 1,16;
+        letter-spacing: 0.03em;
+        color: #F4F4FD;
     }
     .page-footer{
         font-weight: 400;
-font-size: 16px;
-line-height: 1,5;
-letter-spacing: 0.02em;
-color: #E7E9FC;
+        font-size: 16px;
+        line-height: 1,5;
+        letter-spacing: 0.02em;
+        color: #E7E9FC;
     }
