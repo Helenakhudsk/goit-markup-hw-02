@@ -10,6 +10,7 @@ body{
     list-style: none;
 }
 .logo{
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -25,24 +26,24 @@ body{
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
+.header-nav .header-item:hover,
+.header-nav .header-item:focus{
+    color: #404bbf;
+}
 .header-item{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0,02em;
+    letter-spacing: 0.02em;
     color: #2E2F42;
     text-decoration: none;
-}
-.header-lisk .header-item:hover,
-.header-lisk .header-item:focus{
-    color: #404bbf;
 }
 .contacts-address{
     font-style: normal;
 }
 .contacts .contact-tel:hover,
 .contacts .contact-tel:focus{
-    color: #4D5AE5;
+    color: #404bbf;
 }
 .contact-eml{
     font-size: 16px;
@@ -57,7 +58,7 @@ body{
     color: #434455;
     }
     /* Main banner */
-    banner{
+    .banner{
         width: 1440px;
         height: 600px;
         background-color:#2E2F42;
@@ -140,8 +141,7 @@ body{
         background: #F4F4FD;
         cursor: pointer;
     }
-
-    .port-typ-list{
+    .title-img{
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
