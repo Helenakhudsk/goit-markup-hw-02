@@ -134,9 +134,10 @@ body{
         color: var(--primary-text-color);
     }
     /* portfolio */
-    .title-btn .portf-butn-list:hover,
-    .title-btn .portf-butn-list:focus{
-        color: var(--hover-fokus-color);
+    .portf-butns .portf-butn-list:hover,
+    .portf-butns .portf-butn-list:focus{
+        background-color: var(--hover-fokus-color);
+        color: var(--text-banner);
     }
     .portf-butn-list{
         font-family: 'Roboto', sans-serif;
