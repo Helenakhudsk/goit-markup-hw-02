@@ -120,9 +120,8 @@ img{
    
     /*--------------Main banner------------------*/
     .banner{
-        width: 1440px;
-        height: 600px;
         background-color:var(--accent-color);
+        margin-bottom: 120px;
     }
     .hero{
         display: flex;
@@ -161,7 +160,6 @@ img{
     .about-company{
         display: flex;
         margin-top: 120px;
-        margin-bottom: 120px;
     }
     .company{
     display: flex;
@@ -183,6 +181,8 @@ img{
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        width: 264px;
+        height: 72px;
         color: var(--primary-text-color);
     }
     /*----------------What are we doing---------------*/
@@ -190,8 +190,7 @@ img{
         display: flex;
         align-items: center;
         flex-direction: column;
-        height: 412px;
-        margin-bottom: 120px;
+        margin-top: 120px;
     }
     .doing-title{
         font-style: normal;
@@ -215,9 +214,7 @@ img{
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 1440px;
-        height: 770px;
-        margin-bottom: 450px;
+        margin-top: 120px;
         background-color: var(--logo-footer);
         
     }
@@ -265,9 +262,7 @@ img{
     .buttoms-li{
         display: flex;
         justify-items: center;
-        width: 586px;
-        height: 48px;
-       }
+    }
     .portf-butns .portf-butn-list:hover,
     .portf-butns .portf-butn-list:focus{
         background-color: var(--hover-fokus-color);
@@ -298,7 +293,6 @@ img{
         margin-top: 93px;
         margin-bottom: 75px;
         gap: 24px;
-        border: 0;
     }
     .portf-butn-list{
         font-family: 'Roboto', sans-serif;
@@ -347,15 +341,13 @@ img{
         }
     /*-----------------footer--------------------*/
     .footer{
-        width: 1440px;
-        height: 310px;
+        margin-top: 450px;
         background: var(--accent-color);
     }
     .logo-container{
         display: flex;
         flex-direction: column;
-        padding: 100px 1020px 100px 156px;
-        
+        padding: 100px 1020px 100px 156px; 
     }
     .logo-footer{
         display: flex;
