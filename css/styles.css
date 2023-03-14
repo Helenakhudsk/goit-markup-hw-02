@@ -7,8 +7,8 @@ html{
 --accent-color: #2E2F42;
 --hover-fokus-color: #404bbf;
 --text-footer: #E7E9FC;
---text-banner: #FFFFFF;
---logo-footer: #F4F4FD;
+--white: #FFFFFF;
+--light-color: #F4F4FD;
 --buutton-background: #F4F4FD;
          
 }
@@ -34,8 +34,8 @@ body{
     width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
-    margin: 0 auto;
-    outline: 2px solid red;
+    margin-left: auto;
+    margin-right: auto;
  }
 h1,h2,h3,h4,p{
     margin-top: 0;
@@ -48,11 +48,13 @@ ul{
 img{
     display: block;
 }
+.header{
+    border-bottom: 2px solid var(--text-footer);
+}
 .main-nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    outline: 2px solid #E7E9FC
 }
 .logo{
     font-family: 'Raleway', sans-serif;
@@ -121,13 +123,6 @@ img{
     /*--------------Main banner------------------*/
     .banner{
         background-color:var(--accent-color);
-        margin-bottom: 120px;
-    }
-    .hero{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
         padding-top: 188px;
         padding-bottom: 188px;
     }
@@ -136,10 +131,15 @@ img{
         font-size: 56px;
         line-height: 1.07;
         letter-spacing: 0.02em;
+        margin-left: auto;
+        margin-right: auto;
         width: 496px;
         height: 120px;
-        text-align: center;
-        color: var(--text-banner);
+        color: var(--white);
+    }
+    .banner .banner-btn:hover,
+    .banner .banner-btn:focus{
+    background-color: var(--hover-fokus-color);
     }
     .banner-btn{
         font-family: 'Roboto', sans-serif;
@@ -147,35 +147,33 @@ img{
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.04em;
+        margin-left: auto;
+        margin-right: auto;
         width: 169px;
         height: 56px;
-        border-radius: 4px;
         margin-top: 48px;
-        color: var(--text-banner);
+        color: var(--white);
         background: var(--title-text-color);
-        border-color: transparent;
+        border-radius: 4px;
+        border: none;
         cursor: pointer;
     }
     /*----------------About company-----------------*/
+    .company{
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
     .about-company{
         display: flex;
-        margin-top: 120px;
+        gap: 24px;
     }
-    .company{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    height: 224px;
-    gap: 24px;
-}
     .guality-company{
-        display: flex;
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
-        color: var(--accent-color);
-        
+        margin-bottom: 8px;
+        color: var(--accent-color);    
     }
     .guality-comp-descr{
         font-size: 16px;
@@ -186,14 +184,11 @@ img{
         color: var(--primary-text-color);
     }
     /*----------------What are we doing---------------*/
-    .types-of-work{
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        margin-top: 120px;
+    .doing{
+        padding-bottom: 120px;
     }
+
     .doing-title{
-        font-style: normal;
         text-align: center;
         font-weight: 700;
         font-size: 36px;
@@ -205,25 +200,19 @@ img{
     }
     .doing-imgs{
         display: flex;
-        flex-direction: row;
-        align-items: flex-end;
         gap: 24px;
     }
     /*------------------Our team---------------------*/
-    .team-li{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 120px;
-        background-color: var(--logo-footer);
-        
+    .team{
+        padding-top: 120px;
+        padding-bottom: 110px;
+        background-color: var(--light-color);
     }
     .our-team{
         font-weight: 700;
         font-size: 36px;
         line-height: 1.11;
         letter-spacing: 0.02em;
-        margin-top: 120px;
         margin-bottom: 72px;
         text-align: center;
         text-transform: capitalize;
@@ -231,12 +220,13 @@ img{
     }
     .list-team{
         display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        width: 264px;
-        height: 428px;
         gap: 24px;
+    }
+    .data{
+        padding-top: 32px;
+        padding-bottom: 32px;
+        text-align: center;
+        background-color: var(--white);
     }
     .name{
         display: flex;
@@ -246,12 +236,10 @@ img{
         line-height: 1.2;
         letter-spacing: 0.02em;
         padding-top: 32px;
-        padding-bottom: 8px;
+        margin-bottom: 8px;
         color: var(--accent-color);
     }
     .direction{
-        display: flex;
-        justify-content: center;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -259,14 +247,16 @@ img{
     }
     /*----------------portfolio--------------------*/
     /*------buttons------------*/
-    .buttoms-li{
-        display: flex;
-        justify-items: center;
+    .buttons-pictures{
+            display: flex;
+            padding-top: 96px;
+            padding-bottom: 120px;
+            justify-items: center;
     }
     .portf-butns .portf-butn-list:hover,
     .portf-butns .portf-butn-list:focus{
         background-color: var(--hover-fokus-color);
-        color: var(--text-banner);
+        color: var(--white);
     }
     .title-btn{
         position: absolute;
@@ -281,17 +271,14 @@ img{
         overflow: hidden;
     }
     .brd-text{
-        display: flex;
         padding: 32px 0px;
         border: 2px solid var(--text-footer); 
         border-top: 0; 
     }
     .portf-butns{
         display: flex;
-        flex-direction: row;
         justify-content: center;
-        margin-top: 93px;
-        margin-bottom: 75px;
+        margin-bottom: 72px;
         gap: 24px;
     }
     .portf-butn-list{
@@ -303,6 +290,8 @@ img{
         padding: 12px 24px;
         color: var(--title-text-color); 
         background: var(--buutton-background);
+        border-radius: 4px;
+        border-color: transparent;
         cursor: pointer;
     }
     .link{
@@ -311,12 +300,10 @@ img{
 
 /*---------pictures---------*/
 .img{
-    display: flex;
-    margin-bottom: 120px;
+    padding-bottom: 120px;
 }
 .img-li{
-    width: 360px;
-    height: 420px;
+    width: calc((100% - 48px) /3);
 }
 .portf-typs{
     display: flex;
@@ -341,17 +328,14 @@ img{
         }
     /*-----------------footer--------------------*/
     .footer{
-        margin-top: 450px;
+        padding-top: 100px;
+        padding-bottom: 100px;
         background: var(--accent-color);
     }
-    .logo-container{
-        display: flex;
-        flex-direction: column;
-        padding: 100px 1020px 100px 156px; 
+    .footer-container{
+        width: 264px;
     }
     .logo-footer{
-        display: flex;
-        margin-bottom: 16px;
         font-family: 'Raleway', sans-serif;
         font-style: normal;
         font-weight: 800;
@@ -367,10 +351,11 @@ img{
         font-size: 18px;
         line-height: 1,16;
         letter-spacing: 0.03em;
-        color: var(--logo-footer);
+        color: var(--light-color);
     }
     .page-footer{
         display: flex;
+        margin-top: 16px;
         width: 264px;
         height: 72px;
         font-weight: 400;
